@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout #2</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul,ol{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #111;
+    }
+
+    #container{
+        width: 802px;
+        height: auto;
+        padding: 10px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background-color: #fff;
+        margin: 0 auto;
+    }
+
+    header{
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+        border: 1px dashed black;
+        box-sizing: border-box;
+        background-color: #eee;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border: 1px dashed black;
+        box-sizing: border-box;
+        background-color: #ddd;
+        margin-top: 10px;
+    }
+
+    main>section{
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+        border: 1px dashed black;
+        box-sizing: border-box;
+        background-color: #ddd;
+        margin-top: 10px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        border: 1px dashed black;
+        box-sizing: border-box;
+        margin-top: 10px;
+        background-color: #ccc;
+
+
+    }
+</style>
+<body>
+    <div id="container">
+        <header>header</header>
+        <main>
+            main
+        
+        <section>section</section>
+        <section>section</section>
+        </main>
+        <footer>footer</footer>
+    </div>
+    
+</body>
+</html>
